@@ -8,7 +8,7 @@ This repository contains course homework and their solutions.
 |--------	|-----	|-----	|----	|-----	|-----	|--------	|--------	|
 | Grades 	|  	    |  		| 		|     	|    	|        	|        	|
 
-The course was given by Dr. Erchan Aptoula at Gebze Technical University for the Department of Computer Engineering in the Spring 2020.
+The course was given by Prof. Dr. Erkan Zergeroğlu at Gebze Technical University for the Department of Computer Engineering in the Spring 2024.
 
 Links:
 * [Systems Programming Course](https://abl.gtu.edu.tr/ects/?dil=en&modul=ders_bilgi_formu&bolum=104&tip=lisans&duzey=ucuncu&dno=BİL%20344)
