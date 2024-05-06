@@ -541,8 +541,10 @@ char * listCWD(DIR * serverDir)
 	return response;
 }
 
-char *readThisFile(const char *filename, int lineIndex, const char *directoryPath) {
-    if (lineIndex < 1) {
+char * readThisFile(const char * filename, int lineIndex, const char * directoryPath) 
+{
+    if (lineIndex < 1) 
+    {
         return "Line index must be a positive number.";
     }
 
@@ -550,28 +552,38 @@ char *readThisFile(const char *filename, int lineIndex, const char *directoryPat
     snprintf(fullPath, sizeof(fullPath), "%s/%s", directoryPath, filename);
 
     int fileDesc = open(fullPath, O_RDONLY);
-    if (fileDesc == -1) {
+
+    if (fileDesc == -1) 
+    {
         perror("Failed to open file");
         static char errorResponse[COMMUNICATION_LEN];
         snprintf(errorResponse, COMMUNICATION_LEN, "Error opening file: %s", strerror(errno));
         return errorResponse;
     }
-
     static char lineBuffer[COMMUNICATION_LEN];
     memset(lineBuffer, 0, sizeof(lineBuffer));
+
     char ch;
     int bytesRead;
     int currentLine = 1;
     int index = 0;
 
-    while ((bytesRead = read(fileDesc, &ch, 1)) > 0) {
-        if (ch != '\n') {
-            if (index < COMMUNICATION_LEN - 1) {
+    while ((bytesRead = read(fileDesc, &ch, 1)) > 0) 
+    {
+        if (ch != '\n') 
+        {
+            if (index < COMMUNICATION_LEN - 1) 
+            {
                 lineBuffer[index++] = ch;
             }
-        } else {
+        } 
+
+        else 
+        {
             lineBuffer[index] = '\0'; // Null terminate the current line
-            if (currentLine == lineIndex) {
+
+            if (currentLine == lineIndex) 
+            {
                 close(fileDesc);
                 return lineBuffer;
             }
@@ -579,21 +591,22 @@ char *readThisFile(const char *filename, int lineIndex, const char *directoryPat
             currentLine++;
         }
     }
-
     close(fileDesc);
-    if (bytesRead == -1) {
+
+    if (bytesRead == -1) 
+    {
         perror("Error reading file");
         static char errorResponse[COMMUNICATION_LEN];
         snprintf(errorResponse, COMMUNICATION_LEN, "Error reading file: %s", strerror(errno));
         return errorResponse;
     }
 
-    if (lineIndex > currentLine) {
+    if (lineIndex > currentLine) 
+    {
         static char lineError[COMMUNICATION_LEN];
         snprintf(lineError, COMMUNICATION_LEN, "Invalid index for file line: %d", lineIndex);
         return lineError;
     }
-
     return "Line not found.";
 }
 
