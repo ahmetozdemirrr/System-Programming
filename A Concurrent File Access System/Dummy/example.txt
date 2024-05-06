@@ -1,0 +1,15 @@
+Acquiring GParted on Live CD
+A Live CD is a Compact Disc that contains a bootable operating system. A Live CD enables you to boot your computer from the CD.
+helloSystemProgramming!!!
+Using gparted from a Live CD has the following advantages:
+You can edit all of your partitions because the partitions are not mounted.
+You can edit partitions on computers that do not have a bootable operating system.
+The gparted application is available on many Live CD distributions.
+You can download a Live CD image containing gparted from the following web sites:
+GParted Live CD https://gparted.org/livecd.php
+SystemRescue (also known as SystemRescueCD) https://www.system-rescue.org
+The GParted Live CD image can be written to a USB flash drive.
+If your computer can boot from Universal Serial Bus (USB) then you might prefer to boot and use gparted from a USB flash drive.
+To avoid wasting a blank CD when burning a CD image file, use the following tips:
+Ensure the checksum of the downloaded file matches the checksum posted on the download page.
+Be sure to burn the .iso file as an image to the blank CD. If you burn the .iso file as data to a blank CD then the CD will not boot in your computer.
