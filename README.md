@@ -15,3 +15,11 @@ Links:
 * [Prof. Dr. Erkan Zergeroğlu](https://www.gtu.edu.tr/tr/personel/98/10414/display.aspx)
 * [Department of Computer Engineering](https://www.gtu.edu.tr/kategori/91/3/bilgisayar-muhendisligi.aspx?languageId=2)
 * [Gebze Technical University](https://www.gtu.edu.tr/?languageId=2)
+
+1. HW1: Student Grade Management System with Process Creation
+2. HW2: IPC_WithFIFO
+3. HW3:
+4. HW4:
+5. HW5:
+6. Midterm: A Concurrent File Access System
+7. Final: 
