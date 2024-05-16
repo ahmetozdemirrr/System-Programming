@@ -6,7 +6,7 @@ This repository contains course homework and their solutions.
 
 | #      	| #1  	| #2  	| #3 	| #4  	| #5  	| MIDTERM 	| FINAL     |
 |--------	|-----	|-----	|----	|-----	|-----	|--------	|--------	|
-| Grades 	| 100   |  		| 		|     	|    	|        	|        	|
+| Grades 	| 100   |  130	| 		|     	|    	|        	|        	|
 
 The course was given by Prof. Dr. Erkan Zergeroğlu at Gebze Technical University for the Department of Computer Engineering in the Spring 2024.
 
