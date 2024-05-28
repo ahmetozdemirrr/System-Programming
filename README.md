@@ -19,7 +19,7 @@ Links:
 1. HW1: Student Grade Management System with Process Creation
 2. HW2: IPC_WithFIFO
 3. HW3: Parking-System-Simulation-with-Thread
-4. HW4:
-5. HW5:
+4. HW4: Simultaneous-Directory-Copying-Programme
+5. HW5: Simultaneous-Directory-Copying-Programme-With-Barrier
 6. Midterm: A Concurrent File Access System
 7. Final: 
