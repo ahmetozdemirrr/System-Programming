@@ -22,4 +22,4 @@ Links:
 4. HW4: Simultaneous-Directory-Copying-Programme
 5. HW5: Simultaneous-Directory-Copying-Programme-With-Barrier
 6. Midterm: A Concurrent File Access System
-7. Final: 
+7. Final: Pide Shop
