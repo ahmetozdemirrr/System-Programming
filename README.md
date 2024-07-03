@@ -6,7 +6,7 @@ This repository contains course homework and their solutions.
 
 | #      	| #1  	| #2  	| #3 	| #4  	| #5  	| MIDTERM 	| FINAL     |
 |--------	|-----	|-----	|----	|-----	|-----	|--------	|--------	|
-| Grades 	| 100   |  130	| 100	|     	|    	|        	|        	|
+| Grades 	| 100   |  130	| 100	| 100 | 100 | 80 | 30 |
 
 The course was given by Prof. Dr. Erkan Zergeroğlu at Gebze Technical University for the Department of Computer Engineering in the Spring 2024.
 
@@ -22,4 +22,4 @@ Links:
 4. HW4: Simultaneous-Directory-Copying-Programme
 5. HW5: Simultaneous-Directory-Copying-Programme-With-Barrier
 6. Midterm: A Concurrent File Access System
-7. Final: Pide Shop
+7. Final: Pide Shop Simulation
